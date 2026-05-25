@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for app-1-nodejs-wispy-meadow-9917 on 2024-10-07T15:08:19Z
+# fly.toml app configuration file generated for hello-fly-monorepo-geomva on 2026-05-25T14:41:24Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'app-1-nodejs-wispy-meadow-9917'
-primary_region = 'iad'
+app = 'hello-fly-monorepo-geomva'
+primary_region = 'ams'
 
 [build]
 
@@ -20,3 +20,4 @@ primary_region = 'iad'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
+  memory_mb = 256
